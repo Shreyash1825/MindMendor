@@ -1,0 +1,16 @@
+.anc::before {
+    margin-left: auto;
+  }
+  
+  .anc::after, .anc::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #1479EA;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .anc:hover::after, .anc:hover::before {
+    width: 100%;
+  }

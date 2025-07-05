@@ -1,0 +1,172 @@
+/* From Uiverse.io by lowa2006 
+.card {
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(
+      30px 0%,
+      100% 0,
+      100% calc(100% - 30px),
+      calc(100% - 30px) 100%,
+      0 100%,
+      0% 30px
+    );
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card .img{
+    width: 5.8em;
+    height: 5.8em;
+    margin: auto;
+  }
+
+  .card .img img{
+    object-fit: cover;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: #1479ea;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 0.4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: #1479ea;
+    color: white;
+    cursor: pointer;
+  }
+   */
+
+.card{
+  border-radius: 20px;
+  position: relative;
+  background: #fff;
+  width: 320px;
+  font-family: "Poppins", serif;
+}
+
+.card::before{
+  content: "";
+  position: absolute;
+  height: 35%;
+  width: 100%;
+  background: #1479ea;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-content{
+  padding: 30px 20px;
+  color: black;
+  text-align: justify;
+  position: relative;
+  z-index: 100;
+}
+
+.therpistlist .card-content .image{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #1479ea;
+}
+
+.therpistlist .card-content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.card .card-content .media-icons{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+}
+
+.card .card-content .media-icons i{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.card .card-content .media-icons i:hover{
+  opacity: 100%;
+}
+
+.card .card-content .name-desc .name{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card .card-content .name-desc .profession{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.card .card-content .ratings i{
+  font-size: 18px;
+  color: #1479ea;
+}
+
+.card .card-content .buttons{
+  width: 100%;
+}
+
+.card .card-content .buttons button{
+  background: #1479ea;
+  outline: none;
+  padding: 8px 22px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  transition: all 0.3 ease;
+}
+
+.card .card-content .buttons button:hover{
+  background: #10437d;
+}
