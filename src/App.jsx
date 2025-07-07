@@ -1,4 +1,4 @@
-import UI from "@/components/ui/uii";
+import UI from "@/components/ui/UI";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "@/components/Home";
 import Userlogin from "@/components/authentication/User/Userlogin";
