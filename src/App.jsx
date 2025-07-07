@@ -1,35 +1,35 @@
-import UI from "./components/ui/UI";
+import UI from "@/components/ui/UI";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./components/Home";
-import Userlogin from "./components/authentication/User/Userlogin";
-import Userregister from "./components/authentication/User/Userregister";
-import Therapistregister from "./components/authentication/Therapist/Therapistregister";
-import Therapistlogin from "./components/authentication/Therapist/Therapistlogin";
-import Predictor from "./components/predictor/Predictor";
+import Home from "@/components/Home";
+import Userlogin from "@/components/authentication/User/Userlogin";
+import Userregister from "@/components/authentication/User/Userregister";
+import Therapistregister from "@/components/authentication/Therapist/Therapistregister";
+import Therapistlogin from "@/components/authentication/Therapist/Therapistlogin";
+import Predictor from "@/components/predictor/Predictor";
 
-import Login from "./admin/components/Login";
+import Login from "@/admin/components/Login";
 
-import Therapistlist from "./components/Therapists/Page";
+import Therapistlist from "@/components/Therapists/Page";
 
 import { ToastContainer } from "react-toastify";
-import TherapistDashboardLayout from "./Therapist/_components/TherapistDashboardLayout";
-import TherapistDashboard from "./Therapist/_components/Dashboard/TherapistDashboard";
-import Account from "./Therapist/_components/Dashboard/Account";
-import Notification from "./Therapist/_components/Dashboard/Notification";
-import Appointments from "./Therapist/_components/Dashboard/Appointments";
-import Earnings from "./Therapist/_components/Dashboard/Earnings";
-import Patients from "./Therapist/_components/Dashboard/Patients";
-import Help from "./Therapist/_components/Dashboard/Help";
-import TherapistAbout from "./Therapist/_components/TherapistAbout/TherapistAbout";
-import TherapistHire from "./Therapist/_components/TherapistHire/TherapistHire";
-import Chatbot from "./components/Chatbot";
-import TherapistProfile from "./components/Therapists/[id]/Page";
-import TherapistBooking from "./components/Therapists/TherapistBooking";
-import AdminDashboardLayout from "./admin/components/AdminDashboardLayout";
-import AdminDashboard from "./admin/components/Dashboard/AdminDashboard";
-import AdminAccount from "./admin/components/Dashboard/AdminAccount";
-import AnonymousVideoCall from "./VideoCall/Videocall";
-import PredictorTherapistRoute from "./routes/PredictorTherapistRoute";
+import TherapistDashboardLayout from "@/Therapist/_components/TherapistDashboardLayout";
+import TherapistDashboard from "@/Therapist/_components/Dashboard/TherapistDashboard";
+import Account from "@/Therapist/_components/Dashboard/Account";
+import Notification from "@/Therapist/_components/Dashboard/Notification";
+import Appointments from "@/Therapist/_components/Dashboard/Appointments";
+import Earnings from "@/Therapist/_components/Dashboard/Earnings";
+import Patients from "@/Therapist/_components/Dashboard/Patients";
+import Help from "@/Therapist/_components/Dashboard/Help";
+import TherapistAbout from "@/Therapist/_components/TherapistAbout/TherapistAbout";
+import TherapistHire from "@/Therapist/_components/TherapistHire/TherapistHire";
+import Chatbot from "@/components/Chatbot";
+import TherapistProfile from "@/components/Therapists/[id]/Page";
+import TherapistBooking from "@/components/Therapists/TherapistBooking";
+import AdminDashboardLayout from "@/admin/components/AdminDashboardLayout";
+import AdminDashboard from "@/admin/components/Dashboard/AdminDashboard";
+import AdminAccount from "@/admin/components/Dashboard/AdminAccount";
+import AnonymousVideoCall from "@/VideoCall/Videocall";
+import PredictorTherapistRoute from "@/routes/PredictorTherapistRoute";
 
 function App() {
   const router = createBrowserRouter([
