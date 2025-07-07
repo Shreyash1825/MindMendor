@@ -1,6 +1,6 @@
 import { IndianRupee, Star } from "lucide-react";
 import React, { useState } from "react";
-import { Label } from "@/components/ui/label";
+import { Label } from "@/components/UI/label";
 import { Switch } from "@/components/ui/switch";
 
 function TherapistDashboard() {
