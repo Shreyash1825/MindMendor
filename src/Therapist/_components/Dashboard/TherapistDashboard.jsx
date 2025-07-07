@@ -1,7 +1,7 @@
 import { IndianRupee, Star } from "lucide-react";
 import React, { useState } from "react";
 import { Label } from "@/components/UI/label";
-import { Switch } from "@/components/ui/switch";
+import { Switch } from "@/components/UI/switch";
 
 function TherapistDashboard() {
   const [isAvailable, setIsAvailable] = useState(false);
