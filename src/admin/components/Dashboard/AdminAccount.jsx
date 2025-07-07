@@ -5,14 +5,14 @@ import { collection, query, where, getDocs, doc, updateDoc, addDoc } from "fireb
 import { firestore } from "@/Database/Firebase"
 import { useAdminAuth } from "../../../context/UseAdminAuth"
 import { toast } from "react-toastify"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/UI/card"
-import { Button } from "@/components/UI/button"
-import { Input } from "@/components/UI/input"
-import { Label } from "@/components/UI/label"
-import { Textarea } from "@/components/UI/textarea"
-import { Badge } from "@/components/UI/badge"
-import { Separator } from "@/components/UI/separator"
-import { Avatar, AvatarFallback } from "@/components/UI/avatar"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import { Textarea } from "@/components/ui/textarea"
+import { Badge } from "@/components/ui/badge"
+import { Separator } from "@/components/ui/separator"
+import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import {
   Dialog,
   DialogContent,
@@ -21,7 +21,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/UI/dialog"
+} from "@/components/ui/dialog"
 import { Mail, Shield, Calendar, Edit3, Save, X, Plus, Settings, Activity, Clock, UserCheck } from 'lucide-react'
 
 function AdminAccount() {
